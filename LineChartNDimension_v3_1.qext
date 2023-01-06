@@ -1,0 +1,7 @@
+{
+	"name": "LineChartNDimension_v3_1",
+	"description": "A multi-line chart",
+	"type": "visualization",
+	"version": 3.1,
+	"author": "eCS"
+}

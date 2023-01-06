@@ -1,0 +1,113 @@
+
+/*
+.qv-object-LineChartNDimension_v3_1 .d3vl_multi_line_v1_1 {
+  font: 10px sans-serif;
+}
+////*/
+.qv-object-LineChartNDimension_v3_1 div.qv-object-content-container {
+/* 	 overflow: auto;  */
+	
+}
+.qv-object-LineChartNDimension_v3_1 div#chart.d3vl_multi_line_v3_1 {
+            float: left; 
+			 position:relative;
+			 
+        }
+div.legend1 {
+            width:145px;
+            height: 5px;
+            padding: 0px;
+            /* overflow: scroll;
+            font: 10px sans-serif; */
+            background: yellow;
+            border: 1px solid #bbb;
+            background-color: #cccccc;
+            box-shadow: 2px 2px 1px #888;
+        }
+		
+.qv-object-LineChartNDimension_v3_1 div#legend.d3vl_multi_line_v3_1 {
+            overflow-y: auto;
+           /*  height: 280px;  
+            width: 200px;   */
+			
+        }
+.qv-object-LineChartNDimension_v3_1 .d3vl_multi_line_v3_1 .axis path,
+.qv-object-LineChartNDimension_v3_1 .d3vl_multi_line_v3_1 .axis line {
+  fill: none;
+  stroke: lightgrey;
+  shape-rendering: crispEdges;
+}
+
+.qv-object-LineChartNDimension_v3_1 .d3vl_multi_line_v3_1 .x.axis path {
+  /*display: none;*/
+  fill:none;
+		stroke:lightgrey;
+		shape‐rendering:crispEdges;
+  
+}
+
+.qv-object-LineChartNDimension_v3_1 .d3vl_multi_line_v3_1 .line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.qv-object-LineChartNDimension_v3_1 g.tick text {
+	/*font-size: 10px;
+	font-family: sans-serif;*/
+	/*font-weight:100!important; */
+	font-size: 12px;
+	/*font-family: arial;*/
+	/*fill: #000000; */
+	fill: #595959; 
+	stroke: none;
+	/*fill:drakgrey;*/
+	font-weight:bold;
+	
+	
+}
+
+.qv-object-LineChartNDimension_v3_1 rect {
+  fill: transparent;
+  shape-rendering: crispEdges;
+}
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+.d3-tip td {
+  padding: 5px 10px;
+}
+
+.qv-object-LineChartNDimension_v3_1 .highlight {
+  stroke-width: 2.5 !important;
+  /*stroke: red !important;*/
+  border: solid 2.5px red !important;
+  /*fill: #4682B4 !important;*/
+  opacity: 1 !important;
+  transition: stroke 250ms;
+  transition: stroke-width 250ms;
+  transition: border 250ms;
+  transition: opacity 250ms;
+}
+
+.qv-object-LineChartNDimension_v3_1 .dim {
+  opacity: 0.4;
+  transition: opacity 250ms;
+}
